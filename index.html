@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Curso básico de programación para videojuegos con Luau en Roblox Studio." />
+  <title>GameDev Start | Aprende Luau en Roblox</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">GS</span>
+      <span>
+        <strong>GameDev Start</strong>
+        <small>Programación para videojuegos</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#ruta">Ruta</a>
+      <a href="#leccion">Primera lección</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#recursos">Recursos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">CURSO 01 · NIVEL PRINCIPIANTE</span>
+        <h1>Aprende a programar <span>videojuegos en Roblox</span> desde cero</h1>
+        <p>
+          Empieza con <strong>Luau</strong>, el lenguaje de scripting usado por Roblox Studio.
+          Vas a aprender lógica, variables, condiciones, funciones y eventos mientras construyes
+          pequeños sistemas de juego paso a paso.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#leccion">Comenzar lección</a>
+          <a class="btn ghost" href="#ruta">Ver ruta de aprendizaje</a>
+        </div>
+        <div class="hero-stats" aria-label="Resumen del curso">
+          <div><strong>6</strong><span>Módulos</span></div>
+          <div><strong>12+</strong><span>Prácticas</span></div>
+          <div><strong>1</strong><span>Mini juego final</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ilustración de Roblox Studio y código Luau">
+        <img src="assets/hero-code.svg" alt="Ventana ilustrada de código Luau y un escenario de videojuego" />
+      </div>
+    </section>
+
+    <section class="section intro-card">
+      <div>
+        <span class="section-tag">¿POR QUÉ EMPEZAR AQUÍ?</span>
+        <h2>Programar juegos sin comenzar por lo más complicado</h2>
+      </div>
+      <p>
+        Roblox Studio permite ver rápidamente el resultado de tu código dentro de un mundo 3D.
+        Eso lo convierte en un excelente punto de entrada para comprender programación aplicada:
+        escribes una instrucción, ejecutas el juego y observas qué cambió.
+      </p>
+    </section>
+
+    <section class="section" id="ruta">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">RUTA DE APRENDIZAJE</span>
+          <h2>De cero a tu primer sistema jugable</h2>
+        </div>
+        <p>No necesitas experiencia previa. Cada módulo añade una idea nueva y la aplica dentro de Roblox.</p>
+      </div>
+
+      <div class="roadmap">
+        <article class="module active">
+          <span class="module-number">01</span>
+          <div>
+            <span class="pill">Fundamentos</span>
+            <h3>Tu primer script</h3>
+            <p>Output, comentarios, print(), objetos y propiedades.</p>
+          </div>
+        </article>
+        <article class="module">
+          <span class="module-number">02</span>
+          <div>
+            <span class="pill">Lógica</span>
+            <h3>Variables y tipos de datos</h3>
+            <p>Texto, números, booleanos y datos que cambian durante una partida.</p>
+          </div>
+        </article>
+        <article class="module">
+          <span class="module-number">03</span>
+          <div>
+            <span class="pill">Decisiones</span>
+            <h3>Condiciones</h3>
+            <p>Usa if, elseif y else para crear reglas y respuestas del juego.</p>
+          </div>
+        </article>
+        <article class="module">
+          <span class="module-number">04</span>
+          <div>
+            <span class="pill">Reutilización</span>
+            <h3>Funciones</h3>
+            <p>Agrupa instrucciones para no repetir código y mantenerlo organizado.</p>
+          </div>
+        </article>
+        <article class="module">
+          <span class="module-number">05</span>
+          <div>
+            <span class="pill">Interacción</span>
+            <h3>Eventos</h3>
+            <p>Haz que el código reaccione al tocar partes, hacer clic o entrar al juego.</p>
+          </div>
+        </article>
+        <article class="module">
+          <span class="module-number">06</span>
+          <div>
+            <span class="pill">Proyecto final</span>
+            <h3>Mini obby programado</h3>
+            <p>Checkpoint, lava, monedas y contador sencillo.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section lesson" id="leccion">
+      <div class="lesson-copy">
+        <span class="section-tag">LECCIÓN 1</span>
+        <h2>Tu primer código en Luau</h2>
+        <p>
+          En Roblox Studio, un <strong>Script</strong> contiene instrucciones que el juego ejecuta.
+          Para comenzar, abre <strong>ServerScriptService</strong>, crea un Script y escribe:
+        </p>
+
+        <div class="concepts">
+          <div><span>1</span><p><strong>print()</strong> muestra un mensaje en la ventana Output.</p></div>
+          <div><span>2</span><p>Las comillas indican que el contenido es texto.</p></div>
+          <div><span>3</span><p>Ejecuta el juego y observa el resultado.</p></div>
+        </div>
+      </div>
+
+      <div class="code-card" aria-label="Ejemplo de código Luau">
+        <div class="code-topbar">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="filename">PrimerScript.server.lua</span>
+        </div>
+        <pre><code><span class="comment">-- Mi primer script en Roblox</span>
+<span class="function">print</span>(<span class="string">"¡Hola, Roblox!"</span>)
+
+<span class="keyword">local</span> jugador = <span class="string">"Aprendiz"</span>
+<span class="keyword">local</span> monedas = <span class="number">10</span>
+
+<span class="function">print</span>(jugador .. <span class="string">" tiene "</span> .. monedas .. <span class="string">" monedas"</span>)</code></pre>
+        <button class="copy-btn" data-copy>Copiar código</button>
+      </div>
+    </section>
+
+    <section class="section challenge">
+      <div class="challenge-icon">⚡</div>
+      <div>
+        <span class="section-tag">MINI RETO</span>
+        <h2>Cambia el mensaje y la cantidad de monedas</h2>
+        <p>Modifica el nombre del jugador y el número. Ejecuta el juego otra vez y comprueba el resultado en Output.</p>
+      </div>
+      <div class="challenge-checklist">
+        <label><input type="checkbox"> Cambié el nombre</label>
+        <label><input type="checkbox"> Cambié las monedas</label>
+        <label><input type="checkbox"> Probé el juego</label>
+      </div>
+    </section>
+
+    <section class="section" id="proyecto">
+      <div class="section-heading">
+        <div>
+          <span class="section-tag">PROYECTO FINAL</span>
+          <h2>Construye un mini obby programado</h2>
+        </div>
+        <p>Al finalizar los módulos tendrás las bases para unir lógica, eventos y objetos en una experiencia sencilla.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="icon-box">☠</div>
+          <h3>Bloque de lava</h3>
+          <p>Detecta cuando un jugador toca una parte y reinicia su personaje.</p>
+        </article>
+        <article class="project-card">
+          <div class="icon-box">★</div>
+          <h3>Monedas</h3>
+          <p>Suma puntos al recoger objetos y actualiza un contador.</p>
+        </article>
+        <article class="project-card">
+          <div class="icon-box">⚑</div>
+          <h3>Checkpoints</h3>
+          <p>Guarda el progreso del jugador dentro del recorrido.</p>
+        </article>
+        <article class="project-card">
+          <div class="icon-box">▣</div>
+          <h3>Interfaz básica</h3>
+          <p>Muestra información importante sin llenar la pantalla de elementos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section resources" id="recursos">
+      <div>
+        <span class="section-tag">RECURSOS DEL CURSO</span>
+        <h2>Lo que necesitarás</h2>
+      </div>
+      <div class="resource-list">
+        <div><strong>Roblox Studio</strong><span>Editor donde construirás y probarás el juego.</span></div>
+        <div><strong>Explorer + Properties</strong><span>Paneles para organizar objetos y cambiar propiedades.</span></div>
+        <div><strong>Output</strong><span>Ventana para leer mensajes y detectar errores del código.</span></div>
+        <div><strong>Constancia</strong><span>La programación se aprende probando, fallando y corrigiendo.</span></div>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div>
+        <span class="section-tag">SIGUIENTE PASO</span>
+        <h2>Empieza pequeño. Haz que algo funcione. Luego mejóralo.</h2>
+        <p>Ese es el ciclo básico que usarás durante todo el curso para aprender programación de videojuegos.</p>
+      </div>
+      <a class="btn primary" href="#leccion">Volver a la lección 1</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <span class="brand-mark">GS</span>
+      <span><strong>GameDev Start</strong><small>Curso básico de programación para juegos</small></span>
+    </div>
+    <p>Proyecto educativo estático preparado para desplegarse en Netlify.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

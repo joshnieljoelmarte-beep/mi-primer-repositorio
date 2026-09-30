@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 680" role="img" aria-labelledby="title desc">
+<title id="title">Curso de programación de juegos</title>
+<desc id="desc">Ilustración de una ventana con código Luau y bloques de un escenario de videojuego</desc>
+<defs>
+  <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#7c8cff"/><stop offset="1" stop-color="#4ee1a0"/></linearGradient>
+  <linearGradient id="g2" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#172235"/><stop offset="1" stop-color="#0b111d"/></linearGradient>
+</defs>
+<rect x="52" y="46" width="760" height="528" rx="34" fill="#0c121f" stroke="#253248" stroke-width="2"/>
+<rect x="76" y="72" width="712" height="456" rx="24" fill="url(#g2)"/>
+<circle cx="108" cy="104" r="7" fill="#3c4960"/><circle cx="132" cy="104" r="7" fill="#3c4960"/><circle cx="156" cy="104" r="7" fill="#3c4960"/>
+<rect x="104" y="150" width="258" height="322" rx="18" fill="#101827" stroke="#2b384d"/>
+<rect x="386" y="150" width="374" height="322" rx="18" fill="#0a101b" stroke="#2b384d"/>
+<rect x="120" y="170" width="112" height="12" rx="6" fill="#4ee1a0" opacity=".8"/>
+<rect x="120" y="198" width="198" height="9" rx="5" fill="#52627a"/>
+<rect x="120" y="218" width="172" height="9" rx="5" fill="#3f4d63"/>
+<rect x="120" y="258" width="178" height="74" rx="12" fill="#172235"/>
+<rect x="120" y="350" width="92" height="92" rx="13" fill="#7c8cff" opacity=".84"/>
+<rect x="226" y="376" width="108" height="66" rx="13" fill="#4ee1a0" opacity=".78"/>
+<circle cx="279" cy="363" r="13" fill="#ffd38a"/>
+<g font-family="monospace" font-size="17">
+<text x="410" y="190" fill="#6c7890">-- Primer script</text>
+<text x="410" y="228" fill="#76e7b5">print</text><text x="456" y="228" fill="#dfe5ee">(</text><text x="468" y="228" fill="#ffd38a">"Hola, Roblox!"</text><text x="624" y="228" fill="#dfe5ee">)</text>
+<text x="410" y="272" fill="#9da8ff">local</text><text x="458" y="272" fill="#dfe5ee"> monedas = </text><text x="570" y="272" fill="#ff9fba">10</text>
+<text x="410" y="316" fill="#9da8ff">if</text><text x="434" y="316" fill="#dfe5ee"> monedas &gt; </text><text x="548" y="316" fill="#ff9fba">0</text><text x="560" y="316" fill="#9da8ff"> then</text>
+<text x="438" y="354" fill="#76e7b5">print</text><text x="484" y="354" fill="#dfe5ee">(</text><text x="496" y="354" fill="#ffd38a">"¡Sigue jugando!"</text><text x="668" y="354" fill="#dfe5ee">)</text>
+<text x="410" y="392" fill="#9da8ff">end</text>
+</g>
+<rect x="410" y="426" width="158" height="18" rx="9" fill="url(#g1)" opacity=".8"/>
+<path d="M645 522l76 64h-74l-36 58-21-88z" fill="#4ee1a0" opacity=".98"/>
+<path d="M630 512l56 44h-45l-24 40-13-57z" fill="#eafff5" opacity=".95"/>
+<rect x="170" y="545" width="204" height="82" rx="18" fill="#101827" stroke="#2b384d"/>
+<text x="196" y="580" font-family="sans-serif" font-size="18" font-weight="700" fill="#f6f7fb">Construye · prueba · mejora</text>
+<text x="196" y="608" font-family="sans-serif" font-size="14" fill="#9ca8bb">Aprender programación jugando</text>
+</svg>

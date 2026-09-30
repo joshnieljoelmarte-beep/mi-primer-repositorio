@@ -1,0 +1,19 @@
+GAMEDEV START — SITIO LISTO PARA NETLIFY
+
+Archivos principales:
+- index.html
+- styles.css
+- script.js
+- assets/hero-code.svg
+- assets/favicon.svg
+- netlify.toml
+
+PARA PUBLICAR:
+1. Descomprime esta carpeta.
+2. En Netlify, crea un sitio mediante despliegue manual.
+3. Arrastra la carpeta completa (la que contiene index.html).
+4. Espera a que aparezca el estado Published.
+5. Abre la URL .netlify.app y comprueba que carga.
+
+Nota técnica:
+Roblox usa Luau, un lenguaje derivado de Lua y adaptado por Roblox para scripting.
